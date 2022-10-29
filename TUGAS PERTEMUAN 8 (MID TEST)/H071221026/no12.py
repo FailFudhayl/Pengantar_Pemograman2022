@@ -1,0 +1,1 @@
+mylist= list(map(int, input("Masukkan list n : ").split(" ")))

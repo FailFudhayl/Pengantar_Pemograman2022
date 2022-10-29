@@ -1,0 +1,2 @@
+string_input= str(input("Masukkan String S : "))
+print(string_input.replace('-#-', 'e').replace(';--;', 'b').replace('_', 'a').replace('*', 'c').replace('<=+=>', 't').replace('###', 'n').replace('^^^', ' '))

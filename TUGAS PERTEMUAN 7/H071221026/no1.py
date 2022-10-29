@@ -1,0 +1,7 @@
+a= set(map(int, input("Masukkan set A : ").split(' ')))
+b= set(map(int, input("Masukkan set B : ").split(' ')))
+print(f"Union of set A and set B : {a|b}")
+print(f"Intesection of set A and set B : {a&b}")
+print(f"Difference of set A from set B : {a-b}")
+print(f"Difference of set B from set A : {b-a}")
+print(f"Symetric Difference of set A from set B : {a^b}")
